@@ -26,10 +26,10 @@ github.com/kr/pretty v0.3.0/go.mod h1:640gp4NfQd8pI5XOwp5fnNeVWj67G7CFk/SaSQn7NB
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/kr/text v0.2.0/go.mod h1:eLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=
-github.com/krakendio/bloomfilter/v2 v2.0.1 h1:orTtBUaN3Lm9/3hD4Gv53/0Q5gknsV5bBj+q5nHXkBc=
-github.com/krakendio/bloomfilter/v2 v2.0.1/go.mod h1:4sa2zev27WRZgs1OIgHg2+OyruaZdHXmJS8Fz8vw50c=
-github.com/krakendio/flatmap v1.1.1/go.mod h1:KBuVkiH5BcBFRa5A1HdSHDn8a8LzsyRTKZArX0vqTbo=
-github.com/krakendio/krakend-gologging/v2 v2.0.1/go.mod h1:ar6rViGYhsxtiCfxGeh7b7Djbh5wMIBXsyBKudADLJs=
+github.com/krakend/bloomfilter/v2 v2.0.1 h1:orTtBUaN3Lm9/3hD4Gv53/0Q5gknsV5bBj+q5nHXkBc=
+github.com/krakend/bloomfilter/v2 v2.0.1/go.mod h1:4sa2zev27WRZgs1OIgHg2+OyruaZdHXmJS8Fz8vw50c=
+github.com/krakend/flatmap v1.1.1/go.mod h1:KBuVkiH5BcBFRa5A1HdSHDn8a8LzsyRTKZArX0vqTbo=
+github.com/krakend/krakend-gologging/v2 v2.0.1/go.mod h1:ar6rViGYhsxtiCfxGeh7b7Djbh5wMIBXsyBKudADLJs=
 github.com/leodido/go-urn v1.2.0/go.mod h1:+8+nEpDfqqsY+g338gtMEUOtuK+4dEMhiQEgxpxOKII=
 github.com/leodido/go-urn v1.2.1/go.mod h1:zt4jvISO2HfUBqxjfIshjdMTYS56ZS/qv49ictyFfxY=
 github.com/luraproject/lura/v2 v2.0.5/go.mod h1:r2N4j89Snm1j+Y9CCa9cYR1T2ETRL0E4y9P+DgymqX4=
