@@ -58,7 +58,7 @@ A RabbitMQ instance is ready to accept AMQP messages to be delivered to the gate
 You can insert messages in the `krakend` queue at [http://localhost:15672/#/queues/%2F/krakend](http://localhost:15672/#/queues/%2F/krakend) (credentials: `guest`/`guest`) and see how the async agent picks them and delivers them.
 
 ### The JWT revoker
-A simple implementation of a JWT revoker using the KrakenD remote [bloomfilter client](https://github.com/krakendio/bloomfilter).
+A simple implementation of a JWT revoker using the KrakenD remote [bloomfilter client](https://github.com/krakend/bloomfilter).
 
 More information about JWT revoking is available at https://www.krakend.io/docs/authorization/revoking-tokens/
 
@@ -120,7 +120,7 @@ The following endpoints are worth noticing:
 | Feature                                       | Endpoint                                                               | Description                                                                                                                                                                      |
 |-----------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Simple request                                | [`/public`](http://localhost:8080/public)                              | A simple request calling an internal service and returning a JSON response                                                                                                       |
-| Data aggregation and manipulation             | [`/git/{user}`](http://localhost:8080/git/krakendio)                   | Aggregating multiple calls concurrently and manipulating some data from GitHub API                                                                                               |
+| Data aggregation and manipulation             | [`/git/{user}`](http://localhost:8080/git/krakend)                   | Aggregating multiple calls concurrently and manipulating some data from GitHub API                                                                                               |
 | GraphQL to REST transformation                | [`/starwars_films/{movie_id}`](http://localhost:8080/starwars_films/1) | Transforming a GraphQL query into a regular REST API endpoint                                                                                                                    |
 | Caching backend responses                     | [`/market/cached`](http://localhost:8080/market/cached)                | Caching a backend response (based on cache headers provided by the backend)                                                                                                      |
 | Concurrent requests                           | [`/market/concurrent`](http://localhost:8080/market/concurrent)        | Using [concurrent requests](https://www.krakend.io/docs/endpoints/concurrent-requests/) to gather data from Coingecko API                                                        |
@@ -145,4 +145,4 @@ If you have any questions or doubts, you can find our support resources at [http
 
 ---
 
-_Note: if you're looking for the KrakenD Enterprise Edition Playground, you'll find it here: https://github.com/krakendio/playground-enterprise_
+_Note: if you're looking for the KrakenD Enterprise Edition Playground, you'll find it here: https://github.com/krakend/playground-enterprise_
